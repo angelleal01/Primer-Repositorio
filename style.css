@@ -45,7 +45,7 @@
     align-items: start;*/
 
     display: grid; /*El grid sirve para crear cuadrillas*/
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /*Esto sirve para decir cuantas columnas habran y la formula que nunca cambia*/
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /*Esto sirve para decir cuantas columnas habran y la formula que nunca cambia, fill rellena el espacio vacio y el fit ajusta los espacios*/
 
     gap: 12px; /*Espacio entre los elementos*/
     padding: 15px 60px;
