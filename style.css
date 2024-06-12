@@ -1,16 +1,31 @@
 *{
 /* configuraciones generales para la pagina */
 
+/*sirve para quitar el espaciado*/
     margin: unset;
     padding: unset;
-    outline: unset;
-    border: unset;
+    outline: unset; /*sirve para quitar el borde de los formularios*/
+    border: unset; /*sirve para quitar los bordes*/
 
     box-sizing: border-box;
-    display: block;
+    /* display: block; */ 
+
+    list-style: none;
 
     font-size: 1rem;
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+
+.navbar__nav{
+
+    display: flex; /*es el predeterminado, esta el row y el columns (filas y columnas)*/
+
+}
+
+.navbar__nav__list{
+
+    display: flex;
 
 }
