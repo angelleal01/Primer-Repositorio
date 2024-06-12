@@ -7,10 +7,11 @@
     outline: unset; /*sirve para quitar el borde de los formularios*/
     border: unset; /*sirve para quitar los bordes*/
 
-    box-sizing: border-box;
+    box-sizing: border-box; /*hace que no crezca la caja asi se le aplique el margin y el padding*/
     /* display: block; */ 
 
-    list-style: none;
+    list-style: none; /*sirve para quitar los puntos de las listas*/
+    text-decoration: none; /*sirve para quitar las lineas debajo de los link*/
 
     font-size: 1rem;
     font-weight: 400;
@@ -21,11 +22,19 @@
 .navbar__nav{
 
     display: flex; /*es el predeterminado, esta el row y el columns (filas y columnas)*/
+    
+    align-items: center;
+    justify-content: space-between; /*sirve para distribuir el espacio entre elementos*/
+
+    padding: 15px 60px;
+
+    
 
 }
 
 .navbar__nav__list{
 
     display: flex;
+    gap: 35px;
 
 }
