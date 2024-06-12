@@ -21,7 +21,7 @@
 
 .navbar__nav{
 
-    display: flex; /*es el predeterminado, esta el row y el columns (filas y columnas)*/
+    display: flex; /*es el predeterminado, existe el flex-direction row y el columns (filas y columnas)*/
     
     align-items: center;
     justify-content: space-between; /*sirve para distribuir el espacio entre elementos*/
@@ -38,3 +38,4 @@
     gap: 35px;
 
 }
+
