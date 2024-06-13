@@ -1,5 +1,4 @@
-*{
-/* configuraciones generales para la pagina */
+*{ /* configuraciones generales para la pagina */
 
 /*sirve para quitar el espaciado*/
     margin: unset;
@@ -37,6 +36,23 @@
     display: flex;
     gap: 35px;
 
+}
+
+.navbar__nav__botones { /*PREGUNTAR*/
+
+    margin-right: 15px;
+
+}
+
+.navbar__nav__button { /*PREGUNTAR*/
+
+    color: #FFFF;
+    background-color: #3D057D;
+    
+}
+
+.main__jumbotron { /*PREGUNTAR*/
+    
 }
 
 .main__section__container {
