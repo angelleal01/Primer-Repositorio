@@ -67,11 +67,13 @@ body {
 
     color: #FFFF;
     background-color: #3D057D;
+    padding: 12px 30px;
+    font-weight: bold;
 
 }
 
 .main__jumbotron {
-    /*PREGUNTAR*/
+    /*Listo*/
 
     background-image: url(/assets/jumbotron.jpg);
     color: #FFFF;
@@ -138,6 +140,7 @@ body {
     text-align: center;
     color: #3D057D;
     font-size: 26px;
+    font-weight: bold;
 
 }
 
@@ -170,5 +173,39 @@ body {
 .main__section__container__card>img {
 
     height: 60px;
+
+}
+
+.main__section__container__card__price{
+
+    display: flex;
+    align-items: center;
+    justify-items: center;
+    gap: 40px;
+    padding-bottom: 6px;
+
+}
+
+.main__section__container__card__price p:nth-child(1){
+    opacity: .3;
+    text-decoration: line-through;
+}
+
+.main__section__container__card__price p:nth-child(2){
+    font-weight: bold; 
+}
+
+.main__section__container__card__button{
+
+    color: #FFFF;
+    background-color: #3d057dec;
+    padding: 7px 100px;
+    font-weight: bold;
+
+}
+
+footer{
+
+    display: flex;
 
 }
