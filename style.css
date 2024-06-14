@@ -38,24 +38,34 @@
 
 }
 
-.navbar__nav__botones { /*PREGUNTAR*/
 
-    margin-right: 15px;
+
+.navbar__nav__botones{ /*LISTO*/
+    
+    display: flex;
+    align-items: center;
+    gap: 15px;
 
 }
 
-.navbar__nav__button { /*PREGUNTAR*/
+
+.navbar__nav__button{ /*Listo*/
 
     color: #FFFF;
     background-color: #3D057D;
     
 }
 
-.main__jumbotron { /*PREGUNTAR*/
+.main__jumbotron{ /*PREGUNTAR*/
     
+    background-image: url(/assets/jumbotron.jpg);
+    color: #FFFF;
+    display: flex;
+    
+
 }
 
-.main__section__container {
+.main__section__container{
 
     /*display: flex
     align-items: start;*/
