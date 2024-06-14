@@ -1,37 +1,49 @@
-*{ /* configuraciones generales para la pagina */
+* {
+    /* configuraciones generales para la pagina */
 
-/*sirve para quitar el espaciado*/
+    /*sirve para quitar el espaciado*/
     margin: unset;
     padding: unset;
-    outline: unset; /*sirve para quitar el borde de los formularios*/
-    border: unset; /*sirve para quitar los bordes*/
+    outline: unset;
+    /*sirve para quitar el borde de los formularios*/
+    border: unset;
+    /*sirve para quitar los bordes*/
 
-    box-sizing: border-box; /*hace que no crezca la caja asi se le aplique el margin y el padding*/
-    /* display: block; */ 
+    box-sizing: border-box;
+    /*hace que no crezca la caja asi se le aplique el margin y el padding*/
+    /* display: block; */
 
-    list-style: none; /*sirve para quitar los puntos de las listas*/
-    text-decoration: none; /*sirve para quitar las lineas debajo de los link*/
+    list-style: none;
+    /*sirve para quitar los puntos de las listas*/
+    text-decoration: none;
+    /*sirve para quitar las lineas debajo de los link*/
 
-    font-size: 1rem;
     font-weight: 400;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 
+
 }
 
-.navbar__nav{
+body {
+    font-size: 1rem;
+}
 
-    display: flex; /*es el predeterminado, existe el flex-direction row y el columns (filas y columnas)*/
-    
+.navbar__nav {
+
+    display: flex;
+    /*es el predeterminado, existe el flex-direction row y el columns (filas y columnas)*/
+
     align-items: center;
-    justify-content: space-between; /*sirve para distribuir el espacio entre elementos*/
+    justify-content: space-between;
+    /*sirve para distribuir el espacio entre elementos*/
 
     padding: 15px 60px;
 
-    
+
 
 }
 
-.navbar__nav__list{
+.navbar__nav__list {
 
     display: flex;
     gap: 35px;
@@ -40,8 +52,9 @@
 
 
 
-.navbar__nav__botones{ /*LISTO*/
-    
+.navbar__nav__botones {
+    /*LISTO*/
+
     display: flex;
     align-items: center;
     gap: 15px;
@@ -49,36 +62,41 @@
 }
 
 
-.navbar__nav__button{ /*Listo*/
+.navbar__nav__button {
+    /*Listo*/
 
     color: #FFFF;
     background-color: #3D057D;
-    
+
 }
 
-.main__jumbotron{ /*PREGUNTAR*/
-    
+.main__jumbotron {
+    /*PREGUNTAR*/
+
     background-image: url(/assets/jumbotron.jpg);
     color: #FFFF;
     display: flex;
-    
+    font-size: 50px;
+    justify-content: center;
+    background-size: cover;
+    padding: 160px 200px;
+    text-align: center;
+    line-height: 160%;
 
 }
 
-.main__section__container{
+.section__info{
 
-    /*display: flex
-    align-items: start;*/
-
-    display: grid; /*El grid sirve para crear cuadrillas*/
-    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /*Esto sirve para decir cuantas columnas habran y la formula que nunca cambia, fill rellena el espacio vacio y el fit ajusta los espacios*/
-
-    gap: 12px; /*Espacio entre los elementos*/
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /* align-items: stretch;  en realidad esto se quita porque por defecto esta en strech*/
+    justify-items: center;
+    gap: 15px;
     padding: 15px 60px;
 
 }
 
-.main__section__container__card{
+.section__info__card{
 
     display: flex;
     flex-direction: column;
@@ -88,7 +106,68 @@
 
 }
 
-.main__section__container__card > img {
+.section__info__card.personalizado.M{
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-content: center;
+    justify-content: center;
+    background-color: #3D057D;
+    color: #FFFF;
+
+}
+
+.section__info__card.personalizado.MC{
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    align-content: center;
+    justify-content: center;
+    background-color: #4A3F73;
+    color: #FFFF;
+
+}
+
+.main__section > h3 {
+
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    text-align: center;
+    color: #3D057D;
+    font-size: 26px;
+
+}
+
+.main__section__container {
+
+    /*display: flex
+    align-items: start;*/
+
+    display: grid;
+    /*El grid sirve para crear cuadrillas*/
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    /*Esto sirve para decir cuantas columnas habran y la formula que nunca cambia, fill rellena el espacio vacio y el fit ajusta los espacios*/
+
+    gap: 12px;
+    /*Espacio entre los elementos*/
+    padding: 15px 60px;
+
+}
+
+.main__section__container__card {
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 12px;
+    text-align: center;
+
+}
+
+.main__section__container__card>img {
 
     height: 60px;
 
