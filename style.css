@@ -276,6 +276,8 @@ footer{
 
     width: 100%;
     height: 40px;
+    background: transparent;
+    border: 1px solid rgba(128, 128, 128, 0.589);
 }
 
 .footer__part1 ::placeholder{
@@ -284,6 +286,7 @@ footer{
     position: absolute;
     top: 5%;
     padding: 2px 3px;
+    color: #ffffffc0;
     
 }
 
@@ -302,13 +305,14 @@ footer{
 
     display: flex;
     flex-direction: column;
-    gap: 15px;
+    gap: 50px;
 
 }
 
 .contenedor1{
 
     display: flex;
+    gap: 150px;
 
 }
 
@@ -316,6 +320,126 @@ footer{
 
     display: flex;
     flex-direction: column;
+    font-size: 12px;
+    gap: 10px;
     
 }
 
+.contenedor1__Informacion h4{
+
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.contenedor1__Informacion ul{
+
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+}
+
+.contenedor1__nosotros{
+
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    gap: 10px;
+
+}
+
+.contenedor1__nosotros h4{
+
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.contenedor1__nosotros ul{
+
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+
+}
+
+.contenedor2{
+
+    display: flex;
+    flex-direction: column;
+    font-size: 12px;
+    gap: 3px;
+    color: #3D057D;
+
+}
+
+.contenedor2 h4{
+
+    color: #2e2e2e;
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 7px;
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.contenedor3{
+
+    display: flex;
+    flex-direction: column;
+    gap: 15px; 
+
+}
+
+.contenedor3 h4{
+
+    font-size: 16px;
+    font-weight: bold;
+
+}
+
+.contenedor3__input{
+
+    display: flex;
+    justify-content: start;
+}
+
+.contenedor3__input input{
+
+    margin-right: 60%;
+
+}
+
+.contenedor3__input ::placeholder{
+
+    color: #3D057D;
+    opacity: .5;
+
+}
+
+.contenedor3__input .botonfooter{
+
+    display: flex;
+    flex-direction: row;
+    justify-content: end;
+    padding: 3px 10px;
+    text-align: center;
+    opacity: .5;
+    font-weight: bold;
+
+}
+
+.contenedor4{
+
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    color: #2e2e2e;
+    opacity: .5;
+    font-size: 10px;
+    margin-bottom: 3px;
+
+}
+/* Termine aqui */
