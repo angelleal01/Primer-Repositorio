@@ -89,6 +89,10 @@ body {
 
 }
 
+section {
+    padding: 30px 60px;
+}
+
 .section__info{
 
     display: grid;
@@ -233,8 +237,9 @@ body {
 footer{
 
     display: flex;
+    justify-content: center;
     gap: 60px;
-    padding: 10px 10px;
+    padding: 10px 60px;
 
 }
 
@@ -244,10 +249,9 @@ footer{
     flex-direction: column;
     background-color: #3D057D;
     color: #FFFF;
-    padding: 5px 6px 0px 6px;
-    margin: 10px 80px 1px 130px;
+    padding: 12px;
     gap: 30px;
-    max-width: 20%;
+    max-width: 300px;
 
 }
 
